@@ -10201,7 +10201,7 @@ exports = module.exports = __webpack_require__(0)();
 
 
 // module
-exports.push([module.i, "\n.description[data-v-17eb3ca6] {\n  font-size: 1.3em;\n  font-weight: bold;\n  margin-bottom: 5px;\n  line-height: 0.8em;\n}\n.description small[data-v-17eb3ca6] {\n  font-size: 0.7em;\n  font-style: italic;\n  font-weight: normal;\n}\n.others[data-v-17eb3ca6] {\n  text-align: right;\n}\n.reviewers[data-v-17eb3ca6] {\n  font-size: 0.1em;\n  line-height: 0.5em;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.productive[data-v-17eb3ca6] {\n  color: #2aaafc;\n}\n.unproductive[data-v-17eb3ca6] {\n  color: #fc095c;\n}", ""]);
+exports.push([module.i, "\n.description[data-v-3eb620ef] {\n  font-size: 1.3em;\n  font-weight: bold;\n  margin-bottom: 5px;\n  line-height: 0.8em;\n}\n.description small[data-v-3eb620ef] {\n  font-size: 0.7em;\n  font-style: italic;\n  font-weight: normal;\n}\n.others[data-v-3eb620ef] {\n  text-align: right;\n}\n.reviewers[data-v-3eb620ef] {\n  font-size: 3.5px;\n  line-height: 1em;\n  margin-bottom: 10px;\n  font-family: monospace;\n  color: black;\n}\n.productive[data-v-3eb620ef] {\n  color: #2aaafc;\n}\n.unproductive[data-v-3eb620ef] {\n  color: #fc095c;\n}", ""]);
 
 // exports
 
@@ -20352,7 +20352,7 @@ var Component = normalizeComponent(
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_reviewers_distribution_vue__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_17eb3ca6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewers_distribution_vue__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3eb620ef_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewers_distribution_vue__ = __webpack_require__(39);
 function injectStyle (ssrContext) {
   __webpack_require__(43)
 }
@@ -20366,12 +20366,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-17eb3ca6"
+var __vue_scopeId__ = "data-v-3eb620ef"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_reviewers_distribution_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_17eb3ca6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewers_distribution_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3eb620ef_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewers_distribution_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -20473,7 +20473,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-12 col-sm-6"},[_vm._m(0,false,false),_vm._v(" "),_c('div',{staticClass:"reviewers",attrs:{"data-aos":"fade-in"}},[_c('span',{staticClass:"productive"},[_vm._l((773),function(n){return [_vm._v("• ")]})],2),_vm._v(" "),_vm._l((5860 - 773),function(n){return [_vm._v("• ")]})],2)]),_vm._v(" "),_c('div',{staticClass:"col-12 col-sm-6 others"},[_vm._m(1,false,false),_vm._v(" "),_c('div',{staticClass:"reviewers",attrs:{"data-aos":"fade-in"}},[_vm._l((9222),function(n){return [_vm._v("• ")]}),_vm._v(" "),_c('span',{staticClass:"unproductive"},[_vm._l((9221),function(n){return [_vm._v("• ")]})],2)],2)])]),_vm._v(" "),_vm._m(2,false,false)])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-12 col-sm-6"},[_vm._m(0,false,false),_vm._v(" "),_c('div',{staticClass:"reviewers",attrs:{"data-aos":"fade-in"}},[_c('span',{staticClass:"productive"},[_vm._l((773),function(n){return [_vm._v("● ")]})],2),_vm._v(" "),_vm._l((5860 - 773),function(n){return [_vm._v("● ")]})],2)]),_vm._v(" "),_c('div',{staticClass:"col-12 col-sm-6 others"},[_vm._m(1,false,false),_vm._v(" "),_c('div',{staticClass:"reviewers",attrs:{"data-aos":"fade-in"}},[_vm._l((9222),function(n){return [_vm._v("● ")]}),_vm._v(" "),_c('span',{staticClass:"unproductive"},[_vm._l((9221),function(n){return [_vm._v("● ")]})],2)],2)])]),_vm._v(" "),_vm._m(2,false,false)])}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"description"},[_c('strong',{staticClass:"colored"},[_vm._v("5,860")]),_vm._v(" reviewers wrote "),_c('span',{staticClass:"colored"},[_vm._v("50%")]),_vm._v(" of the reviews"),_c('br'),_vm._v(" "),_c('small',[_vm._v("More than 7 reviews each")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"description"},[_c('strong',{staticClass:"colored"},[_vm._v("18,443")]),_vm._v(" reviewers wrote the other "),_c('span',{staticClass:"colored"},[_vm._v("50%")]),_c('br'),_vm._v(" "),_c('small',[_vm._v("Less than 7 reviews each")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"col-12 col-md-6"},[_c('p',[_c('i',{staticClass:"fa fa-arrow-circle-up"}),_vm._v(" The "),_c('span',{staticClass:"productive"},[_vm._v("most productive reviewer")]),_vm._v(" wrote "),_c('strong',[_vm._v("773")]),_vm._v(" reviews")])]),_vm._v(" "),_c('div',{staticClass:"col-12 col-md-6"},[_c('p',[_c('i',{staticClass:"fa fa-arrow-circle-down"}),_vm._v(" "),_c('span',{staticClass:"unproductive"},[_vm._v("25% of the reviewers")]),_vm._v(" wrote less than "),_c('strong',[_vm._v("5 reviews")])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -20522,7 +20522,7 @@ var content = __webpack_require__(19);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("79485f03", content, true);
+var update = __webpack_require__(2)("43510700", content, true);
 
 /***/ }),
 /* 44 */
