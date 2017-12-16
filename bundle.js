@@ -821,7 +821,7 @@ _aos2.default.init();
       },
       margin: {
         t: 30,
-        b: 100
+        b: 40
       }
     }, {
       displayModeBar: false
@@ -872,7 +872,7 @@ _aos2.default.init();
       },
       margin: {
         t: 30,
-        b: 100
+        b: 40
       }
     }, {
       displayModeBar: false
@@ -951,8 +951,7 @@ _aos2.default.init();
     __WEBPACK_IMPORTED_MODULE_0_plotly_js_dist_plotly_min___default.a.newPlot(this.$refs.reviewsDistribution, data, {
       title: 'Number of reviews per product',
       xaxis: {
-        title: 'Product ID',
-        fixedrange: true
+        title: 'Product ID'
       },
       yaxis: {
         title: 'Number of reviews',
@@ -960,7 +959,7 @@ _aos2.default.init();
       },
       margin: {
         t: 30,
-        b: 100
+        b: 40
       }
     }, {
       displayModeBar: false
@@ -1626,7 +1625,7 @@ var Component = normalizeComponent(
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_grades_distribution_vue__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_b3d52b04_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_grades_distribution_vue__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e140c32e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_grades_distribution_vue__ = __webpack_require__(40);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 
@@ -1642,7 +1641,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_grades_distribution_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_b3d52b04_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_grades_distribution_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e140c32e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_grades_distribution_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -1658,7 +1657,7 @@ var Component = normalizeComponent(
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_helpfulness_distribution_vue__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0af1ecd5_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_helpfulness_distribution_vue__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1787be80_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_helpfulness_distribution_vue__ = __webpack_require__(37);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 
@@ -1674,7 +1673,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_helpfulness_distribution_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0af1ecd5_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_helpfulness_distribution_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1787be80_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_helpfulness_distribution_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -1725,7 +1724,7 @@ var Component = normalizeComponent(
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_reviews_distribution_vue__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1eb0ff45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviews_distribution_vue__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0bc64d2b_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviews_distribution_vue__ = __webpack_require__(36);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 
@@ -1741,7 +1740,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_reviews_distribution_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1eb0ff45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviews_distribution_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0bc64d2b_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviews_distribution_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -1801,7 +1800,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"helpfulnessDistribution",staticClass:"graph",attrs:{"data-aos":"fade"}})}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"reviewsDistribution",staticClass:"graph",attrs:{"data-aos":"fade"}})}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -1811,7 +1810,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"reviewsDistribution",staticClass:"graph",attrs:{"data-aos":"fade"}})}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"helpfulnessDistribution",staticClass:"graph",attrs:{"data-aos":"fade"}})}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
