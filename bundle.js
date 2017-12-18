@@ -1251,6 +1251,10 @@ module.exports = g;
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   name: 'reviewer',
@@ -3298,7 +3302,7 @@ exports = module.exports = __webpack_require__(1)();
 
 
 // module
-exports.push([module.i, "\nlabel[data-v-2bf35100] {\n  vertical-align: middle;\n  margin: 10px 0;\n}\ntextarea[data-v-2bf35100],\ninput[data-v-2bf35100],\nselect[data-v-2bf35100] {\n  border: none;\n  padding: 5px 10px;\n  background: #f1f1f1;\n  border-radius: 3px;\n  vertical-align: middle;\n}\nform input[data-v-2bf35100] {\n  width: 70%;\n  margin-bottom: 5px;\n}\nform textarea[data-v-2bf35100] {\n  width: 100%;\n  height: 200px;\n}\nselect[data-v-2bf35100],\noption[data-v-2bf35100] {\n  color: #FF9900;\n}\na[data-v-2bf35100]:hover {\n  text-decoration: none;\n}\n.result[data-v-2bf35100] {\n  font-size: 1.8em;\n  text-align: center;\n  padding: 40px 10px;\n}\n.result .fa.fa-trash[data-v-2bf35100] {\n  color: #ec2c31;\n}\n.result .fa.fa-trophy[data-v-2bf35100] {\n  color: #44b41c;\n}", ""]);
+exports.push([module.i, "\n.reviews-numbers[data-v-4572ed8d] {\n  position: relative;\n  text-align: center;\n  padding: 30px;\n}\n.reviews-numbers .text-background[data-v-4572ed8d] {\n  font-size: 0.95em;\n  color: #dadada;\n  line-height: 1em;\n  text-align: justify;\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  z-index: 0;\n  overflow: hidden;\n}\n.reviews-numbers .numbers[data-v-4572ed8d] {\n  font-family: Oswald, sans-serif;\n  position: relative;\n  z-index: 1;\n  text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;\n  font-size: 1.9em;\n  font-weight: bold;\n  text-align: center;\n  padding: 20px;\n}\n.reviews-numbers small.numbers[data-v-4572ed8d] {\n  font-size: 1.3em;\n  font-weight: normal;\n}", ""]);
 
 // exports
 
@@ -3312,7 +3316,7 @@ exports = module.exports = __webpack_require__(1)();
 
 
 // module
-exports.push([module.i, "\n.reviews-numbers[data-v-4572ed8d] {\n  position: relative;\n  text-align: center;\n  padding: 30px;\n}\n.reviews-numbers .text-background[data-v-4572ed8d] {\n  font-size: 0.95em;\n  color: #dadada;\n  line-height: 1em;\n  text-align: justify;\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  z-index: 0;\n  overflow: hidden;\n}\n.reviews-numbers .numbers[data-v-4572ed8d] {\n  font-family: Oswald, sans-serif;\n  position: relative;\n  z-index: 1;\n  text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;\n  font-size: 1.9em;\n  font-weight: bold;\n  text-align: center;\n  padding: 20px;\n}\n.reviews-numbers small.numbers[data-v-4572ed8d] {\n  font-size: 1.3em;\n  font-weight: normal;\n}", ""]);
+exports.push([module.i, "\nlabel[data-v-52452244] {\n  vertical-align: middle;\n  margin: 10px 0;\n}\ntextarea[data-v-52452244],\ninput[data-v-52452244],\nselect[data-v-52452244] {\n  border: none;\n  padding: 5px 10px;\n  background: #f1f1f1;\n  border-radius: 3px;\n  vertical-align: middle;\n}\nform input[data-v-52452244] {\n  width: 70%;\n  margin-bottom: 5px;\n}\nform textarea[data-v-52452244] {\n  width: 100%;\n  height: 200px;\n}\nselect[data-v-52452244],\noption[data-v-52452244] {\n  color: #FF9900;\n}\na[data-v-52452244]:hover {\n  text-decoration: none;\n}\n.result[data-v-52452244] {\n  font-size: 1.8em;\n  text-align: center;\n  padding: 40px 10px;\n}\n.result .fa.fa-trash[data-v-52452244] {\n  color: #ec2c31;\n}\n.result .fa.fa-trophy[data-v-52452244] {\n  color: #44b41c;\n}", ""]);
 
 // exports
 
@@ -3925,7 +3929,7 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_features_importance_vue__ = __webpack_require__(7);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_38bbdedc_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_features_importance_vue__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_38bbdedc_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_features_importance_vue__ = __webpack_require__(53);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 
@@ -4064,9 +4068,9 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_reviewer_vue__ = __webpack_require__(11);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2bf35100_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewer_vue__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_52452244_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewer_vue__ = __webpack_require__(55);
 function injectStyle (ssrContext) {
-  __webpack_require__(64)
+  __webpack_require__(65)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -4079,12 +4083,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-2bf35100"
+var __vue_scopeId__ = "data-v-52452244"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_reviewer_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2bf35100_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewer_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_52452244_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewer_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -4172,9 +4176,9 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_reviews_numbers_vue__ = __webpack_require__(14);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4572ed8d_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviews_numbers_vue__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4572ed8d_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviews_numbers_vue__ = __webpack_require__(54);
 function injectStyle (ssrContext) {
-  __webpack_require__(65)
+  __webpack_require__(64)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -4295,7 +4299,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"col-12"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-12"},[_c('p',[_vm._v("You're not inspired? "),_c('a',{attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.loadRandom()}}},[_vm._v("Load a random review!")])]),_vm._v(" "),_c('strong',[_vm._v("We need one information about the product:")]),_c('br'),_vm._v(" "),_c('label',{attrs:{"for":"price"}},[_vm._v("Price of the product in $")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.price),expression:"price"}],attrs:{"id":"price","type":"number","placeholder":"19.99"},domProps:{"value":(_vm.price)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.price=$event.target.value},function($event){_vm.evaluateReview()}]}})]),_vm._v(" "),_c('div',{staticClass:"col-12"},[_c('strong',[_vm._v("Your review:")]),_c('br'),_vm._v(" "),_c('label',[_vm._v("Which grade do you want to give?")]),_vm._v(" "),_vm._l((_vm.grade),function(n){return _c('a',{staticClass:"fa fa-star",attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.updateGrade(n)}}})}),_vm._l((5 - _vm.grade),function(n){return _c('a',{staticClass:"fa fa-star-o",attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.updateGrade(_vm.grade + n)}}})})],2)])]),_vm._v(" "),_c('div',{staticClass:"col-12 col-sm-8"},[_c('form',{attrs:{"action":"#"}},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.summary),expression:"summary"}],attrs:{"type":"text","title":"Title for your review","placeholder":"Title for your review..."},domProps:{"value":(_vm.summary)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.summary=$event.target.value},function($event){_vm.evaluateReview()}]}}),_vm._v(" "),_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.review),expression:"review"}],attrs:{"title":"Enter your review here","placeholder":"Enter your review here...","maxlength":"2000"},domProps:{"value":(_vm.review)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.review=$event.target.value},function($event){_vm.evaluateReview()}]}})])]),_vm._v(" "),_c('div',{staticClass:"col-sm-4"},[_c('div',{staticClass:"result"},[(_vm.loading)?[_c('i',{staticClass:"fa fa-spinner fa-spin"}),_c('br'),_vm._v("Evaluating your review...")]:_vm._e(),_vm._v(" "),(_vm.result === true)?[_c('i',{staticClass:"fa fa-trophy"}),_c('br'),_vm._v("Kudos! Your review "),_c('strong',[_vm._v("is")]),_vm._v(" helpful!\n      ")]:_vm._e(),_vm._v(" "),(_vm.result === false)?[_c('i',{staticClass:"fa fa-trash"}),_c('br'),_vm._v("Your review is "),_c('strong',[_vm._v("not")]),_vm._v(" helpful...\n      ")]:_vm._e()],2)])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"featuresImportance",staticClass:"graph",attrs:{"data-aos":"fade"}})}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -4305,7 +4309,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"featuresImportance",staticClass:"graph",attrs:{"data-aos":"fade"}})}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"reviews-numbers"},[_c('div',{staticClass:"text-background"},[_vm._v("\n    "+_vm._s(_vm.longestReview)+"\n  ")]),_vm._v(" "),_c('span',{staticClass:"numbers"},[_c('span',{staticClass:"colored"},[_vm._v("75%")]),_vm._v(" of reviews have less than "),_c('span',{ref:"quartile3",staticClass:"colored"},[_vm._v(_vm._s(_vm.quartile3))]),_vm._v(" characters\n  ")]),_c('br'),_vm._v(" "),_c('small',{staticClass:"numbers"},[_vm._v("The longest one is "),_c('span',{ref:"max",staticClass:"colored"},[_vm._v(_vm._s(_vm.max))]),_vm._v(" characters")])])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -4315,7 +4319,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"reviews-numbers"},[_c('div',{staticClass:"text-background"},[_vm._v("\n    "+_vm._s(_vm.longestReview)+"\n  ")]),_vm._v(" "),_c('span',{staticClass:"numbers"},[_c('span',{staticClass:"colored"},[_vm._v("75%")]),_vm._v(" of reviews have less than "),_c('span',{ref:"quartile3",staticClass:"colored"},[_vm._v(_vm._s(_vm.quartile3))]),_vm._v(" characters\n  ")]),_c('br'),_vm._v(" "),_c('small',{staticClass:"numbers"},[_vm._v("The longest one is "),_c('span',{ref:"max",staticClass:"colored"},[_vm._v(_vm._s(_vm.max))]),_vm._v(" characters")])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"col-12"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-12"},[_c('p',[_vm._v("You're not inspired? "),_c('a',{attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.loadRandom()}}},[_vm._v("Load a random review!")])]),_vm._v(" "),_c('strong',[_vm._v("We need one information about the product:")]),_c('br'),_vm._v(" "),_c('label',{attrs:{"for":"price"}},[_vm._v("Price of the product in $")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.price),expression:"price"}],attrs:{"id":"price","type":"number","placeholder":"19.99"},domProps:{"value":(_vm.price)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.price=$event.target.value},function($event){_vm.evaluateReview()}]}})]),_vm._v(" "),_c('div',{staticClass:"col-12"},[_c('strong',[_vm._v("Your review:")]),_c('br'),_vm._v(" "),_c('label',[_vm._v("Which grade do you want to give?")]),_vm._v(" "),_vm._l((_vm.grade),function(n){return _c('a',{staticClass:"fa fa-star",attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.updateGrade(n)}}})}),_vm._l((5 - _vm.grade),function(n){return _c('a',{staticClass:"fa fa-star-o",attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.updateGrade(_vm.grade + n)}}})})],2)])]),_vm._v(" "),_c('div',{staticClass:"col-12 col-sm-8"},[_c('form',{attrs:{"action":"#"}},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.summary),expression:"summary"}],attrs:{"type":"text","title":"Title for your review","placeholder":"Title for your review..."},domProps:{"value":(_vm.summary)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.summary=$event.target.value},function($event){_vm.evaluateReview()}]}}),_vm._v(" "),_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.review),expression:"review"}],attrs:{"title":"Enter your review here","placeholder":"Enter your review here...","maxlength":"2000"},domProps:{"value":(_vm.review)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.review=$event.target.value},function($event){_vm.evaluateReview()}]}})])]),_vm._v(" "),_c('div',{staticClass:"col-sm-4"},[_c('div',{staticClass:"result"},[(_vm.loading)?[_c('i',{staticClass:"fa fa-spinner fa-spin"}),_c('br'),_vm._v("Evaluating your review...")]:(_vm.result === true)?[_c('i',{staticClass:"fa fa-trophy"}),_c('br'),_vm._v("Kudos! Your review "),_c('strong',[_vm._v("is")]),_vm._v(" helpful!\n      ")]:(_vm.result === false)?[_c('i',{staticClass:"fa fa-trash"}),_c('br'),_vm._v("Your review is "),_c('strong',[_vm._v("not")]),_vm._v(" helpful...\n      ")]:[_c('i',{staticClass:"fa fa-star-o"}),_c('br'),_vm._v("\n        Waiting for your review...\n      ")]],2)])])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -4414,7 +4418,7 @@ var content = __webpack_require__(24);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(3)("565dd9f2", content, true);
+var update = __webpack_require__(3)("bbb86192", content, true);
 
 /***/ }),
 /* 65 */
@@ -4427,7 +4431,7 @@ var content = __webpack_require__(25);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(3)("bbb86192", content, true);
+var update = __webpack_require__(3)("7da37f77", content, true);
 
 /***/ }),
 /* 66 */
