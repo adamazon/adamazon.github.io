@@ -1292,6 +1292,7 @@ module.exports = g;
     },
     updateGrade(i) {
       this.grade = i;
+      this.evaluateReview();
     },
     loadRandom() {
       const sampleReviews = [{
@@ -3293,7 +3294,7 @@ exports = module.exports = __webpack_require__(1)();
 
 
 // module
-exports.push([module.i, "\n.reviews-numbers[data-v-4572ed8d] {\n  position: relative;\n  text-align: center;\n  padding: 30px;\n}\n.reviews-numbers .text-background[data-v-4572ed8d] {\n  font-size: 0.95em;\n  color: #dadada;\n  line-height: 1em;\n  text-align: justify;\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  z-index: 0;\n  overflow: hidden;\n}\n.reviews-numbers .numbers[data-v-4572ed8d] {\n  font-family: Oswald, sans-serif;\n  position: relative;\n  z-index: 1;\n  text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;\n  font-size: 1.9em;\n  font-weight: bold;\n  text-align: center;\n  padding: 20px;\n}\n.reviews-numbers small.numbers[data-v-4572ed8d] {\n  font-size: 1.3em;\n  font-weight: normal;\n}", ""]);
+exports.push([module.i, "\nlabel[data-v-2bf35100] {\n  vertical-align: middle;\n  margin: 10px 0;\n}\ntextarea[data-v-2bf35100],\ninput[data-v-2bf35100],\nselect[data-v-2bf35100] {\n  border: none;\n  padding: 5px 10px;\n  background: #f1f1f1;\n  border-radius: 3px;\n  vertical-align: middle;\n}\nform input[data-v-2bf35100] {\n  width: 70%;\n  margin-bottom: 5px;\n}\nform textarea[data-v-2bf35100] {\n  width: 100%;\n  height: 200px;\n}\nselect[data-v-2bf35100],\noption[data-v-2bf35100] {\n  color: #FF9900;\n}\na[data-v-2bf35100]:hover {\n  text-decoration: none;\n}\n.result[data-v-2bf35100] {\n  font-size: 1.8em;\n  text-align: center;\n  padding: 40px 10px;\n}\n.result .fa.fa-trash[data-v-2bf35100] {\n  color: #ec2c31;\n}\n.result .fa.fa-trophy[data-v-2bf35100] {\n  color: #44b41c;\n}", ""]);
 
 // exports
 
@@ -3307,7 +3308,7 @@ exports = module.exports = __webpack_require__(1)();
 
 
 // module
-exports.push([module.i, "\n.feature[data-v-69040f30] {\n  color: white;\n  background: #404040;\n  padding: 10px 5px;\n  text-align: center;\n  border-radius: 3px;\n  margin: 3px 0 10px;\n  cursor: default;\n  position: relative;\n}\n.feature .fa[data-v-69040f30]:not(.fa-times-circle):not(.fa-check-circle) {\n  color: #FF9900;\n}\n.feature .fa-times-circle[data-v-69040f30],\n.feature .fa-check-circle[data-v-69040f30] {\n  position: absolute;\n  top: -8px;\n  right: -8px;\n  font-size: 1.4em;\n  background: white;\n  border-radius: 50%;\n  border: 1px solid white;\n  height: 23px;\n}\n.feature .details[data-v-69040f30] {\n  overflow: hidden;\n  font-size: 0.7em;\n  font-style: italic;\n  margin-top: 5px;\n}", ""]);
+exports.push([module.i, "\n.reviews-numbers[data-v-4572ed8d] {\n  position: relative;\n  text-align: center;\n  padding: 30px;\n}\n.reviews-numbers .text-background[data-v-4572ed8d] {\n  font-size: 0.95em;\n  color: #dadada;\n  line-height: 1em;\n  text-align: justify;\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  z-index: 0;\n  overflow: hidden;\n}\n.reviews-numbers .numbers[data-v-4572ed8d] {\n  font-family: Oswald, sans-serif;\n  position: relative;\n  z-index: 1;\n  text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;\n  font-size: 1.9em;\n  font-weight: bold;\n  text-align: center;\n  padding: 20px;\n}\n.reviews-numbers small.numbers[data-v-4572ed8d] {\n  font-size: 1.3em;\n  font-weight: normal;\n}", ""]);
 
 // exports
 
@@ -3321,7 +3322,7 @@ exports = module.exports = __webpack_require__(1)();
 
 
 // module
-exports.push([module.i, "\n.score[data-v-9e8993ea] {\n  text-align: center;\n  font-size: 2em;\n  background: #FF9900;\n  border-radius: 50%;\n  width: 75px;\n  height: 75px;\n  display: inline-block;\n  padding: 23px 0;\n  color: white;\n  font-family: Oswald, sans-serif;\n  line-height: 0.45em;\n  vertical-align: middle;\n}\n.score small[data-v-9e8993ea] {\n  font-size: 0.8em;\n}\n.score .description[data-v-9e8993ea] {\n  font-style: italic;\n  font-size: 0.4em;\n}\n.details[data-v-9e8993ea] {\n  display: inline-block;\n  vertical-align: middle;\n}\n.details ul[data-v-9e8993ea] {\n  margin: 0;\n  padding: 0 0 0 10px;\n  list-style-type: none;\n}", ""]);
+exports.push([module.i, "\n.feature[data-v-69040f30] {\n  color: white;\n  background: #404040;\n  padding: 10px 5px;\n  text-align: center;\n  border-radius: 3px;\n  margin: 3px 0 10px;\n  cursor: default;\n  position: relative;\n}\n.feature .fa[data-v-69040f30]:not(.fa-times-circle):not(.fa-check-circle) {\n  color: #FF9900;\n}\n.feature .fa-times-circle[data-v-69040f30],\n.feature .fa-check-circle[data-v-69040f30] {\n  position: absolute;\n  top: -8px;\n  right: -8px;\n  font-size: 1.4em;\n  background: white;\n  border-radius: 50%;\n  border: 1px solid white;\n  height: 23px;\n}\n.feature .details[data-v-69040f30] {\n  overflow: hidden;\n  font-size: 0.7em;\n  font-style: italic;\n  margin-top: 5px;\n}", ""]);
 
 // exports
 
@@ -3335,7 +3336,7 @@ exports = module.exports = __webpack_require__(1)();
 
 
 // module
-exports.push([module.i, "\nlabel[data-v-c582178e] {\n  vertical-align: middle;\n  margin: 10px 0;\n}\ntextarea[data-v-c582178e],\ninput[data-v-c582178e],\nselect[data-v-c582178e] {\n  border: none;\n  padding: 5px 10px;\n  background: #f1f1f1;\n  border-radius: 3px;\n  vertical-align: middle;\n}\nform input[data-v-c582178e] {\n  width: 70%;\n  margin-bottom: 5px;\n}\nform textarea[data-v-c582178e] {\n  width: 100%;\n  height: 200px;\n}\nselect[data-v-c582178e],\noption[data-v-c582178e] {\n  color: #FF9900;\n}\na[data-v-c582178e]:hover {\n  text-decoration: none;\n}\n.result[data-v-c582178e] {\n  font-size: 1.8em;\n  text-align: center;\n  padding: 40px 10px;\n}\n.result .fa.fa-trash[data-v-c582178e] {\n  color: #ec2c31;\n}\n.result .fa.fa-trophy[data-v-c582178e] {\n  color: #44b41c;\n}", ""]);
+exports.push([module.i, "\n.score[data-v-9e8993ea] {\n  text-align: center;\n  font-size: 2em;\n  background: #FF9900;\n  border-radius: 50%;\n  width: 75px;\n  height: 75px;\n  display: inline-block;\n  padding: 23px 0;\n  color: white;\n  font-family: Oswald, sans-serif;\n  line-height: 0.45em;\n  vertical-align: middle;\n}\n.score small[data-v-9e8993ea] {\n  font-size: 0.8em;\n}\n.score .description[data-v-9e8993ea] {\n  font-style: italic;\n  font-size: 0.4em;\n}\n.details[data-v-9e8993ea] {\n  display: inline-block;\n  vertical-align: middle;\n}\n.details ul[data-v-9e8993ea] {\n  margin: 0;\n  padding: 0 0 0 10px;\n  list-style-type: none;\n}", ""]);
 
 // exports
 
@@ -3883,9 +3884,9 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bench_vue__ = __webpack_require__(6);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_9e8993ea_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bench_vue__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_9e8993ea_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bench_vue__ = __webpack_require__(59);
 function injectStyle (ssrContext) {
-  __webpack_require__(66)
+  __webpack_require__(67)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -3954,9 +3955,9 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_features_vue__ = __webpack_require__(8);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_69040f30_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_features_vue__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_69040f30_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_features_vue__ = __webpack_require__(57);
 function injectStyle (ssrContext) {
-  __webpack_require__(65)
+  __webpack_require__(66)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -4059,9 +4060,9 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_reviewer_vue__ = __webpack_require__(11);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c582178e_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewer_vue__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2bf35100_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewer_vue__ = __webpack_require__(54);
 function injectStyle (ssrContext) {
-  __webpack_require__(67)
+  __webpack_require__(64)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -4074,12 +4075,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-c582178e"
+var __vue_scopeId__ = "data-v-2bf35100"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_reviewer_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c582178e_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewer_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2bf35100_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviewer_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -4133,7 +4134,7 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_reviews_distribution_vue__ = __webpack_require__(13);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7649821c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviews_distribution_vue__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7649821c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviews_distribution_vue__ = __webpack_require__(58);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 
@@ -4167,9 +4168,9 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_reviews_numbers_vue__ = __webpack_require__(14);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4572ed8d_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviews_numbers_vue__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4572ed8d_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_reviews_numbers_vue__ = __webpack_require__(56);
 function injectStyle (ssrContext) {
-  __webpack_require__(64)
+  __webpack_require__(65)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -4204,7 +4205,7 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_words_plot_vue__ = __webpack_require__(15);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_423f917b_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_words_plot_vue__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_423f917b_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_words_plot_vue__ = __webpack_require__(55);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 
@@ -4300,7 +4301,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"wordsPlot",staticClass:"graph",attrs:{"data-aos":"fade"}})}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"col-12"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-12"},[_c('p',[_vm._v("You're not inspired? "),_c('a',{attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.loadRandom()}}},[_vm._v("Load a random review!")])]),_vm._v(" "),_c('strong',[_vm._v("We need one information about the product:")]),_c('br'),_vm._v(" "),_c('label',{attrs:{"for":"price"}},[_vm._v("Price of the product in $")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.price),expression:"price"}],attrs:{"id":"price","type":"number","placeholder":"19.99"},domProps:{"value":(_vm.price)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.price=$event.target.value},function($event){_vm.evaluateReview()}]}})]),_vm._v(" "),_c('div',{staticClass:"col-12"},[_c('strong',[_vm._v("Your review:")]),_c('br'),_vm._v(" "),_c('label',[_vm._v("Which grade do you want to give?")]),_vm._v(" "),_vm._l((_vm.grade),function(n){return _c('a',{staticClass:"fa fa-star",attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.updateGrade(n)}}})}),_vm._l((5 - _vm.grade),function(n){return _c('a',{staticClass:"fa fa-star-o",attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.updateGrade(_vm.grade + n)}}})})],2)])]),_vm._v(" "),_c('div',{staticClass:"col-12 col-sm-8"},[_c('form',{attrs:{"action":"#"}},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.summary),expression:"summary"}],attrs:{"type":"text","title":"Title for your review","placeholder":"Title for your review..."},domProps:{"value":(_vm.summary)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.summary=$event.target.value},function($event){_vm.evaluateReview()}]}}),_vm._v(" "),_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.review),expression:"review"}],attrs:{"title":"Enter your review here","placeholder":"Enter your review here...","maxlength":"2000"},domProps:{"value":(_vm.review)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.review=$event.target.value},function($event){_vm.evaluateReview()}]}})])]),_vm._v(" "),_c('div',{staticClass:"col-sm-4"},[_c('div',{staticClass:"result"},[(_vm.loading)?[_c('i',{staticClass:"fa fa-spinner fa-spin"}),_c('br'),_vm._v("Evaluating your review...")]:_vm._e(),_vm._v(" "),(_vm.result === true)?[_c('i',{staticClass:"fa fa-trophy"}),_c('br'),_vm._v("Kudos! Your review "),_c('strong',[_vm._v("is")]),_vm._v(" helpful!\n      ")]:_vm._e(),_vm._v(" "),(_vm.result === false)?[_c('i',{staticClass:"fa fa-trash"}),_c('br'),_vm._v("Your review is "),_c('strong',[_vm._v("not")]),_vm._v(" helpful...\n      ")]:_vm._e()],2)])])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -4310,7 +4311,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"reviews-numbers"},[_c('div',{staticClass:"text-background"},[_vm._v("\n    "+_vm._s(_vm.longestReview)+"\n  ")]),_vm._v(" "),_c('span',{staticClass:"numbers"},[_c('span',{staticClass:"colored"},[_vm._v("75%")]),_vm._v(" of reviews have less than "),_c('span',{ref:"quartile3",staticClass:"colored"},[_vm._v(_vm._s(_vm.quartile3))]),_vm._v(" characters\n  ")]),_c('br'),_vm._v(" "),_c('small',{staticClass:"numbers"},[_vm._v("The longest one is "),_c('span',{ref:"max",staticClass:"colored"},[_vm._v(_vm._s(_vm.max))]),_vm._v(" characters")])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"wordsPlot",staticClass:"graph",attrs:{"data-aos":"fade"}})}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -4320,13 +4321,23 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"reviews-numbers"},[_c('div',{staticClass:"text-background"},[_vm._v("\n    "+_vm._s(_vm.longestReview)+"\n  ")]),_vm._v(" "),_c('span',{staticClass:"numbers"},[_c('span',{staticClass:"colored"},[_vm._v("75%")]),_vm._v(" of reviews have less than "),_c('span',{ref:"quartile3",staticClass:"colored"},[_vm._v(_vm._s(_vm.quartile3))]),_vm._v(" characters\n  ")]),_c('br'),_vm._v(" "),_c('small',{staticClass:"numbers"},[_vm._v("The longest one is "),_c('span',{ref:"max",staticClass:"colored"},[_vm._v(_vm._s(_vm.max))]),_vm._v(" characters")])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 57 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"graph"},[_c('div',{staticClass:"row justify-content-center"},[_c('div',{staticClass:"col"},[_c('div',{staticClass:"feature",attrs:{"data-aos":"zoom-in","data-aos-delay":"100"}},[_c('i',{staticClass:"fa fa-check-circle"}),_vm._v(" "),_c('i',{staticClass:"fa fa-star-half-full"}),_vm._v(" Review grade\n        "),_c('div',{staticClass:"details"},[_vm._v("\n          Grade between 1 and 5 "),_c('i',{staticClass:"fa fa-star"})])])]),_vm._v(" "),_c('div',{staticClass:"col"},[_c('div',{staticClass:"feature",attrs:{"data-aos":"zoom-in","data-aos-delay":"150"}},[_c('i',{staticClass:"fa fa-times-circle"}),_vm._v(" "),_c('i',{staticClass:"fa fa-th-list"}),_vm._v(" Summary length\n        "),_c('div',{staticClass:"details"},[_vm._v("\n          Characters count\n        ")])])]),_vm._v(" "),_c('div',{staticClass:"col"},[_c('div',{staticClass:"feature",attrs:{"data-aos":"zoom-in","data-aos-delay":"200"}},[_c('i',{staticClass:"fa fa-check-circle"}),_vm._v(" "),_c('i',{staticClass:"fa fa-list"}),_vm._v(" Review length\n        "),_c('div',{staticClass:"details"},[_vm._v("\n          Characters count\n        ")])])]),_vm._v(" "),_c('div',{staticClass:"col"},[_c('div',{staticClass:"feature",attrs:{"data-aos":"zoom-in","data-aos-delay":"250"}},[_c('i',{staticClass:"fa fa-times-circle"}),_vm._v(" "),_c('i',{staticClass:"fa fa-exclamation-circle"}),_vm._v(" Exclamation points\n        "),_c('div',{staticClass:"details"},[_vm._v("\n          Exclamation points count\n        ")])])]),_vm._v(" "),_c('div',{staticClass:"col"},[_c('div',{staticClass:"feature",attrs:{"data-aos":"zoom-in","data-aos-delay":"300"}},[_c('i',{staticClass:"fa fa-times-circle"}),_vm._v(" "),_c('i',{staticClass:"fa fa-question-circle"}),_vm._v(" Question marks\n        "),_c('div',{staticClass:"details"},[_vm._v("\n          Question marks count\n        ")])])])]),_vm._v(" "),_c('div',{staticClass:"row justify-content-center"},[_c('div',{staticClass:"col"},[_c('div',{staticClass:"feature",attrs:{"data-aos":"zoom-in","data-aos-delay":"350"}},[_c('i',{staticClass:"fa fa-times-circle"}),_vm._v(" "),_c('i',{staticClass:"fa fa-ellipsis-h"}),_vm._v(" Ellipsis\n        "),_c('div',{staticClass:"details"},[_vm._v("\n          Ellipsis count\n        ")])])]),_vm._v(" "),_c('div',{staticClass:"col"},[_c('div',{staticClass:"feature",attrs:{"data-aos":"zoom-in","data-aos-delay":"400"}},[_c('i',{staticClass:"fa fa-check-circle"}),_vm._v(" "),_c('i',{staticClass:"fa fa-text-height"}),_vm._v(" Uppercase letters\n        "),_c('div',{staticClass:"details"},[_vm._v("\n          Uppercase letters count\n        ")])])]),_vm._v(" "),_c('div',{staticClass:"col"},[_c('div',{staticClass:"feature",attrs:{"data-aos":"zoom-in","data-aos-delay":"450"}},[_c('i',{staticClass:"fa fa-check-circle"}),_vm._v(" "),_c('i',{staticClass:"fa fa-dollar"}),_vm._v(" Product price\n        "),_c('div',{staticClass:"details"},[_vm._v("\n          Price in dollars\n        ")])])]),_vm._v(" "),_c('div',{staticClass:"col"},[_c('div',{staticClass:"feature",attrs:{"data-aos":"zoom-in","data-aos-delay":"500"}},[_c('i',{staticClass:"fa fa-check-circle"}),_vm._v(" "),_c('i',{staticClass:"fa fa-header"}),_vm._v(" Summary text\n        "),_c('div',{staticClass:"details"},[_vm._v("\n          Text contents\n        ")])])]),_vm._v(" "),_c('div',{staticClass:"col"},[_c('div',{staticClass:"feature",attrs:{"data-aos":"zoom-in","data-aos-delay":"550"}},[_c('i',{staticClass:"fa fa-check-circle"}),_vm._v(" "),_c('i',{staticClass:"fa fa-commenting"}),_vm._v(" Review text\n        "),_c('div',{staticClass:"details"},[_vm._v("\n          Text contents\n        ")])])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4336,22 +4347,12 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row graph"},[_c('div',{staticClass:"col-6 col-sm-4"},[_c('div',{staticClass:"bench",attrs:{"data-aos":"fade-in","data-aos-delay":"100"}},[_c('div',{staticClass:"score"},[_vm._v("\n        72"),_c('small',[_vm._v("%")]),_c('br'),_vm._v(" "),_c('span',{staticClass:"description"},[_vm._v("f1 score")])]),_vm._v(" "),_c('div',{staticClass:"details"},[_c('ul',[_c('li',[_c('span',{staticClass:"badge"},[_vm._v("Features")]),_vm._v(" All features")]),_vm._v(" "),_c('li',[_c('span',{staticClass:"badge"},[_vm._v("Training")]),_vm._v(" All reviews")]),_vm._v(" "),_c('li',[_c('span',{staticClass:"badge"},[_vm._v("Predicted")]),_vm._v(" All reviews in PC Games"),_c('br'),_vm._v("subcategory")])])])])]),_vm._v(" "),_c('div',{staticClass:"col-6 col-sm-4"},[_c('div',{staticClass:"bench",attrs:{"data-aos":"fade-in","data-aos-delay":"150"}},[_c('div',{staticClass:"score"},[_vm._v("\n        62"),_c('small',[_vm._v("%")]),_c('br'),_vm._v(" "),_c('span',{staticClass:"description"},[_vm._v("f1 score")])]),_vm._v(" "),_c('div',{staticClass:"details"},[_c('ul',[_c('li',[_c('span',{staticClass:"badge"},[_vm._v("Features")]),_vm._v(" All features")]),_vm._v(" "),_c('li',[_c('span',{staticClass:"badge"},[_vm._v("Training")]),_vm._v(" All reviews")]),_vm._v(" "),_c('li',[_c('span',{staticClass:"badge"},[_vm._v("Predicted")]),_vm._v(" Reviewed products rel-"),_c('br'),_vm._v("ated to "),_c('a',{attrs:{"href":"https://www.amazon.com/Memory-Card-Nintendo-Wii-Gamecube-Blocks/dp/B01KLC1AYG"}},[_c('em',[_vm._v("64MB Block Memory Card")])])])])])])]),_vm._v(" "),_c('div',{staticClass:"col-6 col-sm-4"},[_c('div',{staticClass:"bench",attrs:{"data-aos":"fade-in","data-aos-delay":"200"}},[_c('div',{staticClass:"score"},[_vm._v("\n        90"),_c('small',[_vm._v("%")]),_c('br'),_vm._v(" "),_c('span',{staticClass:"description"},[_vm._v("f1 score")])]),_vm._v(" "),_c('div',{staticClass:"details"},[_c('ul',[_c('li',[_c('span',{staticClass:"badge"},[_vm._v("Features")]),_vm._v(" All features")]),_vm._v(" "),_c('li',[_c('span',{staticClass:"badge"},[_vm._v("Training")]),_vm._v(" Reviews with more than"),_c('br'),_vm._v("100 evaluations")]),_vm._v(" "),_c('li',[_c('span',{staticClass:"badge"},[_vm._v("Predicted")]),_vm._v(" Same as training "),_c('sup',[_vm._v("[a]")])])])])])]),_vm._v(" "),_c('div',{staticClass:"col-12"},[_c('small',[_c('br'),_c('sup',[_vm._v("[a]")]),_vm._v(" Score computed after cross validation")])])])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-/* 59 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"col-12"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-12"},[_c('p',[_vm._v("You're not inspired? "),_c('a',{attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.loadRandom()}}},[_vm._v("Load a random review!")])]),_vm._v(" "),_c('strong',[_vm._v("We need one information about the product:")]),_c('br'),_vm._v(" "),_c('label',{attrs:{"for":"price"}},[_vm._v("Price of the product in $")]),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.price),expression:"price"}],attrs:{"id":"price","type":"number","placeholder":"19.99"},domProps:{"value":(_vm.price)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.price=$event.target.value},function($event){_vm.evaluateReview()}]}})]),_vm._v(" "),_c('div',{staticClass:"col-12"},[_c('strong',[_vm._v("Your review:")]),_c('br'),_vm._v(" "),_c('label',[_vm._v("Which grade do you want to give?")]),_vm._v(" "),_vm._l((_vm.grade),function(n){return _c('a',{staticClass:"fa fa-star",attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.updateGrade(n)}}})}),_vm._l((5 - _vm.grade),function(n){return _c('a',{staticClass:"fa fa-star-o",attrs:{"href":"#"},on:{"click":function($event){$event.preventDefault();_vm.updateGrade(_vm.grade + n)}}})})],2)])]),_vm._v(" "),_c('div',{staticClass:"col-12 col-sm-8"},[_c('form',{attrs:{"action":"#"}},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.summary),expression:"summary"}],attrs:{"type":"text","title":"Title for your review","placeholder":"Title for your review..."},domProps:{"value":(_vm.summary)},on:{"input":function($event){if($event.target.composing){ return; }_vm.summary=$event.target.value}}}),_vm._v(" "),_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.review),expression:"review"}],attrs:{"title":"Enter your review here","placeholder":"Enter your review here..."},domProps:{"value":(_vm.review)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.review=$event.target.value},function($event){_vm.evaluateReview()}]}})])]),_vm._v(" "),_c('div',{staticClass:"col-sm-4"},[_c('div',{staticClass:"result"},[(_vm.loading)?[_c('i',{staticClass:"fa fa-spinner fa-spin"}),_c('br'),_vm._v("Evaluating your review...")]:_vm._e(),_vm._v(" "),(_vm.result === true)?[_c('i',{staticClass:"fa fa-trophy"}),_c('br'),_vm._v("Kudos! Your review "),_c('strong',[_vm._v("is")]),_vm._v(" helpful!\n      ")]:_vm._e(),_vm._v(" "),(_vm.result === false)?[_c('i',{staticClass:"fa fa-trash"}),_c('br'),_vm._v("Your review is "),_c('strong',[_vm._v("not")]),_vm._v(" helpful...\n      ")]:_vm._e()],2)])])}
-var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
@@ -4409,7 +4410,7 @@ var content = __webpack_require__(24);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(3)("bbb86192", content, true);
+var update = __webpack_require__(3)("565dd9f2", content, true);
 
 /***/ }),
 /* 65 */
@@ -4422,7 +4423,7 @@ var content = __webpack_require__(25);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(3)("59c62f8a", content, true);
+var update = __webpack_require__(3)("bbb86192", content, true);
 
 /***/ }),
 /* 66 */
@@ -4435,7 +4436,7 @@ var content = __webpack_require__(26);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(3)("3018e0fa", content, true);
+var update = __webpack_require__(3)("59c62f8a", content, true);
 
 /***/ }),
 /* 67 */
@@ -4448,7 +4449,7 @@ var content = __webpack_require__(27);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(3)("f30abf50", content, true);
+var update = __webpack_require__(3)("3018e0fa", content, true);
 
 /***/ }),
 /* 68 */
